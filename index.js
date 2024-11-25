@@ -15,6 +15,7 @@ dotenv.config();
  }
  });
 
+//  joke 
 
 bot.onText(/\/joke/, async(option)=>{
     const response = await axios.get('https://hindi-jokes-api.onrender.com/jokes?api_key=c70afb601fc2921ad8627dba9a16')
